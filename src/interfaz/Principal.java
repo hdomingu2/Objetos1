@@ -162,15 +162,15 @@ int op,n1,n2,d1,d2;
     }//GEN-LAST:event_cmdCalcularActionPerformed
 
     private void cmdFraccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmdFraccionActionPerformed
-          int  numerador, denominador,entero,d4,n4;
-        n4 = Integer.parseInt(txtNumerador2.getText());
-        d4 = Integer.parseInt(txtDenominador2.getText());
-        entero = n4 / d4;
-        numerador = n4 % d4;
-        denominador = d4;
-        txtEntero.setText("" + entero);
-        txtNumerador3.setText("" + numerador);
-        txtDenominador3.setText("" + denominador);    
+          int aux,aux2,num, den,ent;
+        aux2= Integer.parseInt(txtNumerador3.getText());
+        aux = Integer.parseInt(txtDenominador3.getText());
+        ent = aux / aux;
+        num = aux % aux;
+        den = aux;
+        txtEntero.setText("" + ent);
+        txtNumerador3.setText("" + num);
+        txtDenominador3.setText("" + den);    
     }//GEN-LAST:event_cmdFraccionActionPerformed
 
     /**
